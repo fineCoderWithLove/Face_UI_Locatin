@@ -1,0 +1,240 @@
+{
+
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+  "tabBar": {
+    "color": "#5555ff",
+    "selectedColor": "#ffaa00",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "fontSize": "large",
+    "list": [{
+
+        "pagePath": "pages/index/index",
+        "text": "学生端",
+        "iconPath": "static/student.png",
+        "selectedIconPath": "static/student.png"
+      },
+      {
+        "pagePath": "pages/index-teacher/index-teacher",
+        "text": "老师端",
+        "iconPath": "static/teacher.png",
+        "selectedIconPath": "static/teacher.png"
+      },
+      {
+        "pagePath": "pages/index-admin/index-admin",
+        "text": "后台",
+        "iconPath": "static/m2.png",
+        "selectedIconPath": "static/m2.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userFuzzyLocation": {
+      "desc": "小程序请求获取你的位置信息"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getFuzzyLocation"
+  ],
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "陕西理工大学签到系统"
+      }
+    }, {
+      "path": "pages/person-info/person-info",
+      "style": {
+        "navigationBarTitleText": "我的课表",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/choose-course/choose-course",
+      "style": {
+
+        "navigationBarTitleText": "选课列表",
+        "enablePullDownRefresh": false
+      }
+
+    },
+    {
+      "path": "pages/index-admin/index-admin",
+      "style": {
+
+        "navigationBarTitleText": "管理员登录页面",
+        "enablePullDownRefresh": false
+      }
+
+    },
+    {
+      "path": "pages/index-teacher/index-teacher",
+      "style": {
+
+        "navigationBarTitleText": "老师登录页面",
+        "enablePullDownRefresh": false
+      }
+
+    }
+  ],
+  "subPackages": [{
+    "root": "subpkg",
+    "pages": [{
+        "path": "register/register",
+        "style": {
+
+          "navigationBarTitleText": "注册页面",
+          "enablePullDownRefresh": false
+        }
+
+      }, {
+        "path": "admin-system/admin-system",
+        "style": {
+
+          "navigationBarTitleText": "管理员页面",
+          "enablePullDownRefresh": false
+        }
+
+      },
+      {
+        "path": "admin-teacher/admin-teacher",
+        "style": {
+
+          "navigationBarTitleText": "老师管理页面",
+          "enablePullDownRefresh": false
+        }
+
+      }, {
+        "path": "admin-teacher-stulist/admin-teacher-stulist",
+        "style": {
+
+          "navigationBarTitleText": "班级成员",
+          "enablePullDownRefresh": false
+        }
+
+      }, {
+        "path": "student-info/student-info",
+        "style": {
+
+          "navigationBarTitleText": "学生信息详情",
+          "enablePullDownRefresh": false
+        }
+
+      }, {
+        "path": "publish-checkin/publish-checkin",
+        "style": {
+          "navigationBarTitleText": "发布签到信息",
+          "enablePullDownRefresh": false
+        }
+
+      }, {
+        "path": "demo/demo",
+        "style": {
+          "navigationBarTitleText": "demo小例子",
+          "enablePullDownRefresh": false
+        }
+
+      }, {
+        "path": "stucheck-info/stucheck-info",
+        "style": {
+          "navigationBarTitleText": "我的历史签到信息",
+          "enablePullDownRefresh": false
+        }
+
+      }
+        ,{
+                    "path" : "today-checkinfo/today-checkinfo",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "今日签到信息",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "tsee-checkinfo/tsee-checkinfo",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "学生签到信息",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "personal-info/personal-info",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "个人信息页面",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "guanli-teacher/guanli-teacher",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "管理教师",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "teacher-detail/teacher-detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "老师详情",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "course-student/course-student",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "选课信息",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "history-check/history-check",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "历史签到信息",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "teacher-register/teacher-register",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "publish-course/publish-course",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+  }],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "注册",
+    "navigationBarBackgroundColor": "#8470FF",
+    "backgroundColor": "#efefef"
+  },
+  "usingComponents": {
+    "van-tabbar": "path/to/vant-weapp/dist/tabbar/index",
+    "van-tabbar-item": "path/to/vant-weapp/dist/tabbar-item/index"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "管理员页面",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-tabbar": "/node-modules/uview-ui/components/u-tabbar/u-tabbar",
+    "u-tabbar-item": "/node-modules/uview-ui/components/u-tabbar-item/u-tabbar-item"
+  }
+}

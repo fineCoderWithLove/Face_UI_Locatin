@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/person-info/person-info",
+    "pages/choose-course/choose-course",
+    "pages/index-admin/index-admin",
+    "pages/index-teacher/index-teacher"
+  ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "register/register",
+        "admin-system/admin-system",
+        "admin-teacher/admin-teacher",
+        "admin-teacher-stulist/admin-teacher-stulist",
+        "student-info/student-info",
+        "publish-checkin/publish-checkin",
+        "demo/demo",
+        "stucheck-info/stucheck-info",
+        "today-checkinfo/today-checkinfo",
+        "tsee-checkinfo/tsee-checkinfo",
+        "personal-info/personal-info",
+        "guanli-teacher/guanli-teacher",
+        "teacher-detail/teacher-detail",
+        "course-student/course-student",
+        "history-check/history-check",
+        "teacher-register/teacher-register",
+        "publish-course/publish-course"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "注册",
+    "navigationBarBackgroundColor": "#8470FF",
+    "backgroundColor": "#efefef"
+  },
+  "tabBar": {
+    "color": "#5555ff",
+    "selectedColor": "#ffaa00",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "fontSize": "large",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "学生端",
+        "iconPath": "static/student.png",
+        "selectedIconPath": "static/student.png"
+      },
+      {
+        "pagePath": "pages/index-teacher/index-teacher",
+        "text": "老师端",
+        "iconPath": "static/teacher.png",
+        "selectedIconPath": "static/teacher.png"
+      },
+      {
+        "pagePath": "pages/index-admin/index-admin",
+        "text": "后台",
+        "iconPath": "static/m2.png",
+        "selectedIconPath": "static/m2.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userFuzzyLocation": {
+        "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+},
+"requiredPrivateInfos": [
+    "getFuzzyLocation"
+],
+  "usingComponents": {}
+}

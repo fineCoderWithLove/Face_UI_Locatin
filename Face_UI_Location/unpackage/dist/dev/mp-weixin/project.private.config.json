@@ -1,0 +1,420 @@
+{
+    "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+    "projectname": "Face_UI_Location",
+    "setting": {
+        "compileHotReLoad": true
+    },
+    "libVersion": "2.30.2",
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "",
+                    "pathName": "subpkg/student-info/student-info",
+                    "query": "sno=123&cno=1",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/admin-teacher-stulist/admin-teacher-stulist",
+                    "query": "cno=1",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/demo/demo",
+                    "query": "sno=111",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/publish-checkin/publish-checkin",
+                    "query": "cno=1",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/stucheck-info/stucheck-info",
+                    "query": "cno=4&sno=2109124",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/today-checkinfo/today-checkinfo",
+                    "query": "sno=2109124",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/tsee-checkinfo/tsee-checkinfo",
+                    "query": "cno=1",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/tsee-checkinfo/tsee-checkinfo",
+                    "query": "cno=3",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/admin-teacher-stulist/admin-teacher-stulist",
+                    "query": "cno=3",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/personal-info/personal-info",
+                    "query": "sno=2109124",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/personal-info/personal-info",
+                    "query": "sno=2109124",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/demo/demo",
+                    "query": "sno=2109124027",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/personal-info/personal-info",
+                    "query": "sno=2109199",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/admin-system/admin-system",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/guanli-teacher/guanli-teacher",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/admin-system/admin-system",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/guanli-teacher/guanli-teacher",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/teacher-detail/teacher-detail",
+                    "query": "tno=10001",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/today-checkinfo/today-checkinfo",
+                    "query": "sno=111",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/today-checkinfo/today-checkinfo",
+                    "query": "sno=111",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/person-info/person-info",
+                    "query": "mysno=111",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/admin-teacher-stulist/admin-teacher-stulist",
+                    "query": "cno=1",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/tsee-checkinfo/tsee-checkinfo",
+                    "query": "cno=1",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/admin-system/admin-system",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/admin-teacher-stulist/admin-teacher-stulist",
+                    "query": "cno=1",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/admin-system/admin-system",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/demo/demo",
+                    "query": "sno=2109124023",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/personal-info/personal-info",
+                    "query": "sno=123321",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/today-checkinfo/today-checkinfo",
+                    "query": "sno=2109124",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/today-checkinfo/today-checkinfo",
+                    "query": "sno=111",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/today-checkinfo/today-checkinfo",
+                    "query": "sno=2109124",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/admin-teacher/admin-teacher",
+                    "query": "tno=10005",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/publish-course/publish-course",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/publish-course/publish-course",
+                    "query": "tno=10005",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/guanli-teacher/guanli-teacher",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/person-info/person-info",
+                    "query": "mysno=2109124",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/person-info/person-info",
+                    "query": "mysno=111",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/person-info/person-info",
+                    "query": "mysno=181818",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/admin-teacher-stulist/admin-teacher-stulist",
+                    "query": "cno=1",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/student-info/student-info",
+                    "query": "sno=2109124022&cno=1",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/guanli-teacher/guanli-teacher",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/admin-teacher/admin-teacher",
+                    "query": "tno=10001",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/today-checkinfo/today-checkinfo",
+                    "query": "sno=2109124",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/today-checkinfo/today-checkinfo",
+                    "query": "sno=2109124",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/today-checkinfo/today-checkinfo",
+                    "query": "sno=2109124",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/personal-info/personal-info",
+                    "query": "sno=2109124001",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/personal-info/personal-info",
+                    "query": "sno=2109124001",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/publish-checkin/publish-checkin",
+                    "query": "cno=1",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/publish-checkin/publish-checkin",
+                    "query": "cno=1",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/teacher-register/teacher-register",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/guanli-teacher/guanli-teacher",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/teacher-detail/teacher-detail",
+                    "query": "tno=10001",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/teacher-detail/teacher-detail",
+                    "query": "tno=111",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/history-check/history-check",
+                    "query": "sno=2109124022",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/admin-teacher-stulist/admin-teacher-stulist",
+                    "query": "cno=1",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/history-check/history-check",
+                    "query": "sno=2109124022",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "subpkg/history-check/history-check",
+                    "query": "sno=2109124",
+                    "launchMode": "default",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "学生信息详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-file-picker": "/uni_modules/uni-file-picker/components/uni-file-picker/uni-file-picker",
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

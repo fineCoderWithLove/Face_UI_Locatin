@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "管理教师",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-swipe-action": "/uni_modules/uni-swipe-action/components/uni-swipe-action/uni-swipe-action",
+    "uni-swipe-action-item": "/uni_modules/uni-swipe-action/components/uni-swipe-action-item/uni-swipe-action-item",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "u-tabbar": "/node-modules/uview-ui/components/u-tabbar/u-tabbar",
+    "u-tabbar-item": "/node-modules/uview-ui/components/u-tabbar-item/u-tabbar-item"
+  }
+}

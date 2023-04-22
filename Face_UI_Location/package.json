@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@escook/request-miniprogram": "^0.2.1",
+    "uview-ui": "^2.0.31",
+    "vant-weapp": "^0.5.29",
+    "vue-router": "^3.0.1"
+  },
+  "name": "face_ui_location",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.59.3",
+    "sass-loader": "^10.4.1"
+  }
+}

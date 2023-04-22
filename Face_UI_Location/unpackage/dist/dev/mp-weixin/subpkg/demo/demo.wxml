@@ -1,0 +1,1 @@
+<view><button data-event-opts="{{[['tap',[['chooseImage']]]]}}" bindtap="__e">选择人脸验证图片</button></view>
