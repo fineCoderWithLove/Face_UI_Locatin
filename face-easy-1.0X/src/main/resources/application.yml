@@ -3,9 +3,9 @@ server:
 
 tencentcloudapi:
   # 你的 secretId
-  secretId: AKID6ED6D7lEVXLvJWVI1Xqvn5A9wYw8A3oW
+  secretId: asdasda
   # 你的 secretKey
-  secretKey: kIcibFLGza3MrBHApJcmlaDdpqiNnzzm
+  secretKey: asdasd
   # 请求官方地址 不变
   endpoint: iai.tencentcloudapi.com
   #地域 可不变
@@ -13,9 +13,9 @@ tencentcloudapi:
 
 spring:
   datasource:
-    url: jdbc:mysql://43.143.44.118:3306/face_uidb?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
-    username: root
-    password: 123456
+    url: jdbc:mysql://******/face_uidb?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+    username: ****
+    password: ****
     driver-class-name: com.mysql.cj.jdbc.Driver
 mybatis-plus:
   configuration:
